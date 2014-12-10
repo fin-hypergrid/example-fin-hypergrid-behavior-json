@@ -1,0 +1,26 @@
+{
+  "name": "example-fin-hypergrid-behavior-json",
+  "version": "0.0.0",
+  "authors": [
+    "steve wirts <stevewirts@gmail.com>"
+  ],
+  "description": "a minimal setup to use the hypergrid",
+  "main": "index.html",
+  "keywords": [
+    "openfin",
+    "hypergrid"
+  ],
+  "license": "MIT",
+  "homepage": "github.com/openfin/fin-hypergrid",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "webcomponentsjs": "~0.5.1"
+  }
+}
