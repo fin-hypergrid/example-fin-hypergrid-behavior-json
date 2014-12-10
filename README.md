@@ -1,6 +1,8 @@
 example-fin-hypergrid-behavior-json
 ===================================
 
+see the [json hypergrid here](http://openfin.github.io/example-fin-hypergrid-behavior-json/)
+
 example usage of the polymer based hypergrid json behavior
 
 
