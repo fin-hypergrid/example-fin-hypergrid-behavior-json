@@ -14,15 +14,15 @@ run your favorite web server in the created directory
 
 <pre>
 
-    
-<!doctype html>
-<html>
-<head>
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
-  <title>fin-hypergrid Demo</title>
-  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
-  <link rel="import" href="fin-hypergrid.min.html">
-  <style>
+
+&lt;!doctype html>
+&lt;html>
+&lt;head>
+  &lt;meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  &lt;title>fin-hypergrid Demo&lt;/title>
+  &lt;script src="bower_components/webcomponentsjs/webcomponents.js">&lt;/script>
+  &lt;link rel="import" href="fin-hypergrid.min.html">
+  &lt;style>
     fin-hypergrid {
         position: absolute;
         top: 0;
@@ -30,15 +30,15 @@ run your favorite web server in the created directory
         bottom: 0;
         left: 0;
     }
-  </style>
-</head>
-<body unresolved>
+  &lt;/style>
+&lt;/head>
+&lt;body unresolved>
 
-    <fin-hypergrid id="json-example">
-        <fin-hypergrid-behavior-json></fin-hypergrid-behavior-json>
-    </fin-hypergrid>
+    &lt;fin-hypergrid id="json-example">
+        &lt;fin-hypergrid-behavior-json>&lt;/fin-hypergrid-behavior-json>
+    &lt;/fin-hypergrid>
 
-    <script>
+    &lt;script>
         //setup random data for the JSON tab example
         (function(){
             var numRows = 5000;
@@ -97,7 +97,7 @@ run your favorite web server in the created directory
                     'score'
                 ];
             var data = [];
-            for (var i = 0; i < numRows; i ++) {
+            for (var i = 0; i &lt; numRows; i ++) {
                 data.push(randomPerson());
             }
             var editorTypes = ['choice','textfield','spinner','date','choice','choice','choice','textfield','textfield'];
@@ -158,9 +158,9 @@ run your favorite web server in the created directory
                 };
             });
         })();
-    </script>
+    &lt;/script>
 
-</body>
-</html>
+&lt;/body>
+&lt;/html>
 
 </pre>
