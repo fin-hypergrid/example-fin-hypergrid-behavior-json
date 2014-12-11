@@ -30,6 +30,7 @@ pushd $repo >/dev/null
 git checkout --orphan gh-pages
 
 bower install
+sleep 5
 # use bower to install runtime deployment
 bower cache clean $repo # ensure we're getting the latest from the desired branch.
 echo "{
