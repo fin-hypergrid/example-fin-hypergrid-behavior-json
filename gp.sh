@@ -30,7 +30,6 @@ pushd $repo >/dev/null
 git checkout --orphan gh-pages
 
 bower install
-sleep 5
 # use bower to install runtime deployment
 bower cache clean $repo # ensure we're getting the latest from the desired branch.
 echo "{
@@ -41,6 +40,8 @@ echo "{
 
 # redirect by default to the component folder
 # send it all to github
+
+rm .gitignore
 
 git add -A .
 git commit -am 'seed gh-pages'
