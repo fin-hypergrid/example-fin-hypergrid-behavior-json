@@ -21,7 +21,7 @@
     "tests"
   ],
   "devDependencies": {
-    "webcomponentsjs": "~0.5.1",
+    "webcomponentsjs": "webcomponentsjs#master",
     "accountingjs": "~0.3.2"
   }
 }
