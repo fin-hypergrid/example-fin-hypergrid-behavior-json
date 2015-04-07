@@ -21,6 +21,7 @@ branch="master" # default to master when branch isn't specified
 #delete existing dir
 cd ..
 rm -rf temp
+mkdir temp
 cd temp
 rm -rf $repo
 
