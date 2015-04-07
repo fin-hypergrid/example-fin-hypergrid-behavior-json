@@ -1,0 +1,20 @@
+{
+    "startup_app": {
+        "autoShow": true,
+        "name": "hypergrid-json-demo",
+        "url": "http://openfin.github.io/example-fin-hypergrid-behavior-json/index.html",
+        "uuid": "hypergrid-json-demo",
+        "applicationIcon": "http://openfin.github.io/fin-hypergrid/components/fin-hypergrid/images/openfin.ico",
+        "contextMenu" : true
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "v35"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Hypergrid by OpenFin",
+        "icon": "http://openfin.github.io/fin-hypergrid/components/fin-hypergrid/images/openfin.ico",
+        "name": "Hypergrid-Demo"
+    }
+}
