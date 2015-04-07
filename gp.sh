@@ -19,6 +19,9 @@ repo="example-fin-hypergrid-behavior-json"
 branch="master" # default to master when branch isn't specified
 
 #delete existing dir
+cd ..
+rm -rf temp
+cd temp
 rm -rf $repo
 
 # make folder (same as input, no checking!)
@@ -48,3 +51,5 @@ git commit -am 'seed gh-pages'
 git push -u origin gh-pages --force
 
 popd >/dev/null
+
+cd ../$repo
